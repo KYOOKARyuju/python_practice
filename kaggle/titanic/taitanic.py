@@ -19,3 +19,4 @@ train_data["Age"].isnull().sum()
 
 #nullの割合を調べる
 # %%
+train_data["Age"].isnull().sum()/len(train_data["Age"])*100
